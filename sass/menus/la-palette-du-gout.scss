@@ -1,0 +1,49 @@
+
+.menu-palette-du-gout{
+    .menu-plats{
+        font-family: 'menu-palette';
+    }
+}
+
+.text-menu-gout{
+    font-size: 30px;
+    background: linear-gradient(299deg, rgb(204, 243, 207) 0%, rgba(79, 206, 20, 0.884) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-title-menu-gout{
+	text-transform: none;
+	background: linear-gradient(to right, rgb(69, 231, 37) 0%, #bfecc7 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+	
+}
+
+.menu-word-centering-gout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(75, 208, 48);
+    font-family: 'menu-word';
+}
+   
+.main-title-menu-gout, .menu-title-gout{
+    display: flex;
+    justify-content: center;
+    font-family: 'main-title-gout';
+}
+
+.menu-title-gout{
+    font-size: 30px;
+}
+
+.main-menu-color-gout{
+    background-color: $menu-background-color-la-palette-du-gout;
+    
+}
+
+.hr_lpdg_left ,.hr_lpdg_right {
+    color: rgb(22, 233, 22);
+}

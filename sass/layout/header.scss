@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:$color-primary ;
+}
+
+.logo{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: none;
+    color: $color-secondary;
+    font-weight: 900;
+}
+

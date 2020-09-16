@@ -1,0 +1,54 @@
+$color-primary:#579c87;
+$color-secondary:#fdcb46;
+$main-menu-color:#F5F5F5;
+$shadow-of-boxes:#aaa;
+
+$menu-background-color-la-note-enchante: rgb(250, 219, 207);
+$menu-background-color-le-delice-des-papilles:rgb(238, 234, 234);
+$menu-background-color-le-chic-a-la-francaise:rgb(243, 230, 240);
+$menu-background-color-la-palette-du-gout:white;
+
+$first-chic-menu-color: rgba(189, 118, 12, 0.822);
+$second-chic-menu-color:rgb(197, 70, 197);
+$third-chic-menu-color: rgb(74, 18, 206);
+
+
+@font-face{
+    font-family: 'menu-enchante';
+    src: url(../fonts/Satisfy-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'descriptif-menu-chic';
+    src: url(../fonts/AnticSlab-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'menu-chic';
+    src: url(../fonts/Amita-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'menu-delice';
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: 'menu-descriptif-delice';
+    src: url(../fonts/Chilanka-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'menu-palette';
+    src: url(../fonts/Caveat-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'menu-word';
+    src: url(../fonts/ComicNeue-LightItalic.ttf);
+}
+
+@font-face{
+    font-family: 'main-title-gout';
+    src: url(../fonts/kaushanscript-regular.ttf);
+}

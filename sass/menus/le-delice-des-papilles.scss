@@ -1,0 +1,55 @@
+
+.menu-delice-des-papilles{
+    .menu-plats{
+        font-family: 'menu-descriptif-delice';
+    }
+}
+
+.main-title-delice-papilles{
+    text-transform: none;
+    background: linear-gradient(to right, rgb(24, 44, 228) 0%, #7bc3f3 100%);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+    font-family: 'menu-delice';
+    margin-bottom: 2em;
+    font-size: 60px;
+}
+
+.menu-word-centering-delice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(24, 44, 228);
+    font-family: 'menu-word';
+}
+
+.text-menu-delice{
+    font-size: 30px;
+    background: linear-gradient(101deg, rgb(31, 4, 94) 0%, rgb(141, 206, 243) 41%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-menu-color-delice{
+    background-color: $menu-background-color-le-delice-des-papilles;
+}
+
+.menu-title-delice{
+    display: flex;
+    justify-content: center;
+    font-family: 'menu-descriptif-delice';
+}
+
+.hr_lddp_left ,.hr_lddp_right{
+    color: #2412c6;
+}
+
+.hr_lddp_left2 ,.hr_lddp_right2{
+    color: #5442f3;
+}
+
+.hr_lddp_left3 ,.hr_lddp_right3{
+    color: #695aee;
+}

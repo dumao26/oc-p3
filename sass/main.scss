@@ -1,0 +1,289 @@
+
+@import 'reset.scss';
+@import 'variable.scss';
+@import 'animations.scss';
+@import 'layout/header.scss';
+@import 'layout/footer.scss';
+@import 'menus/le-delice-des-papilles.scss';
+@import 'menus/la-note-enchantee.scss';
+@import 'menus/le-chic-a-la-francaise.scss';
+@import 'menus/la-palette-du-gout.scss';
+@import'mentions-legales.scss';
+
+
+body{
+    background-color:$main-menu-color;
+    margin: 0px;
+}
+
+a {
+    color: $color-secondary;
+}
+
+.contenair{
+    margin: auto;
+    max-width: 1200px;
+}
+
+.soon{
+    color: $color-secondary;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+.soon::after{
+    animation   : dotty steps(1,end) 2s infinite;
+    padding-left: 3px;
+    content     : '';
+}
+
+.frame-soon{
+    border:1px transparent;
+    border-radius: 8px;
+    background-color: $color-primary;
+    margin: 200px;
+    line-height: 30%;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+.section-menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.first-bloc, .second-bloc{
+    display: inline-flex
+}
+
+.menu-card{
+    margin: 1em 1em 1em 1em ;
+    font-size: xx-large;
+    border-color: transparent;
+    box-shadow: 3px 3px 3px 3px $shadow-of-boxes;
+    width: 10em;
+    height: 12em;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.interne-box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
+    transition:all 0.2s ease-in-out;
+
+    &:hover{
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+}
+
+.icone-music-main{
+    display: flex;
+    justify-content: center;
+    background: rgb(195, 53, 34);
+    background: linear-gradient(299deg, rgb(238, 252, 239) 0%, rgba(219, 14, 14, 0.932) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blank-space{
+    width: 100%;
+    display: block;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.main-menu{
+    border-width: 2px;
+    border-style: solid; 
+    border-color: transparent;
+    box-shadow: 3px 3px 3px 3px $shadow-of-boxes;
+    color:black; 
+    margin: auto;
+    max-width: 800px;
+    margin-bottom: 200px;
+}
+
+.menu-card-la-note-enchante{
+    background-color:$menu-background-color-la-note-enchante;
+    font-family:'menu-enchante';
+}
+
+.menu-card-le-delice-des-papilles{
+    background-color:$menu-background-color-le-delice-des-papilles;
+    font-family: 'menu-delice';
+}
+
+.menu-card-le-chic-a-la-française{
+    background-color: $menu-background-color-le-chic-a-la-francaise;
+    font-family: 'menu-chic';
+}
+
+.menu-card-la-palette-du-gout{
+    background-color:$menu-background-color-la-palette-du-gout;
+    font-family: 'menu-palette';
+}
+
+.first-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 32px;
+}
+
+.menu-plats{
+    margin: 0 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.plat-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.menu-word-centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-subtitle{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    h3{
+        flex: 1 1 0%;
+    }
+}
+
+.line{
+    border-bottom:5px solid;
+    width: 200px;
+    display: block;
+    flex: 1 1 0%;
+}
+
+h3{
+    padding-bottom: 6px;
+    position: relative;
+    
+  
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0%;
+      transform: scale(0, 0);
+      height: 5px;
+      background-color: rgba(3, 3, 3, 0.8);
+      transition: transform 450ms;
+    }
+  
+    &:hover {
+  
+      &::after {
+        transform: scale(2, 0.5);
+        transform-origin: left;
+        width: 50%;
+      }
+  
+    }
+  }
+
+@media all and (max-width: 950px)
+{
+    .first-bloc, .second-bloc{
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+     justify-content: center;
+    }
+
+    .main-menu{
+        margin: 0em;
+        padding: 0em;
+    }
+
+    .legal-notice-and-contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-plats{
+        padding: 0px;
+    }
+
+    .first-title{
+        margin: 20px;
+    }
+
+    .main-menu, .body{
+        margin: auto;
+    }
+
+    .link{
+        padding: 0px;
+    }
+
+}
+
+@media all and (max-width: 750px)
+{
+
+	.first-bloc, .second-bloc{
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+     justify-content: center;
+    }
+
+    .main-menu{
+        margin: 0em;
+        padding: 0em;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1px;
+    }
+
+    .link{
+        padding: 0px;
+    }
+
+    .frame-soon{
+        margin-bottom: 15px;
+    }
+
+    .line{
+        display: none;
+    }
+
+    .body{
+        margin: auto;
+    }
+
+}

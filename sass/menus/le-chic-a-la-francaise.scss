@@ -1,0 +1,67 @@
+
+.menu-chic-française{
+    .menu-plats{
+        font-family: 'descriptif-menu-chic';
+    }
+}
+
+.text-menu-chic{
+    font-size: 25px;
+    background: linear-gradient(299deg, rgb(228, 203, 95) 0%, rgba(194, 33, 194, 0.884) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu-word-centering-chic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(199, 133, 10);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-title-chic{
+    display: flex;
+    justify-content: center;
+    font-family: 'menu-chic';
+    padding-bottom: 1em;
+	text-transform: none;
+	background: linear-gradient(to right, #f5ad11 0%, #1a0cdf 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 35px;
+}
+
+.menu-title-menu-chic{
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+}
+
+.first-chic-menu-color{
+    color:$first-chic-menu-color
+}
+
+.second-chic-menu-color{
+    color: $second-chic-menu-color
+}
+
+.third-chic-menu-color{
+    color: $third-chic-menu-color
+}
+
+.main-menu-color-chic{
+    background-color: $menu-background-color-le-chic-a-la-francaise;
+}
+
+.hr_lcalf_right1, .hr_lcalf_left1 {
+    border-color: #c67412;
+}
+
+.hr_lcalf_right2, .hr_lcalf_left2 {
+    border-color: #c612bd;
+}
+
+.hr_lcalf_right3, .hr_lcalf_left3 {
+    border-color: #2412c6;
+}

@@ -1,0 +1,88 @@
+
+.menu-note-enchantee{
+    .menu-plats{
+        font-family: 'menu-palette';
+    }
+}
+
+.main-title-enchante, .menu-title-enchante{
+    display: flex;
+    justify-content: center;
+    font-family: 'menu-enchante';
+    font-size: 20px;
+}
+
+.text-menu-enchante{
+    font-size: 30px;
+    color: black;   
+}
+
+.menu-word-centering-enchante{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'menu-word';
+}
+
+.main-title-enchante{
+    font-size: 30px;
+    font-family: cursive;
+}
+
+.icone-music{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background: rgb(195, 53, 34);
+    background: linear-gradient(299deg, rgb(241, 243, 106) 0%, rgba(219, 14, 14, 0.932) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    margin-right: 15px;
+	
+}
+
+.first-icone-music{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background: rgb(195, 53, 34);
+    background: linear-gradient(299deg, rgb(241, 243, 106) 0%, rgba(219, 14, 14, 0.932) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15px;
+	margin-top: 4em;
+}
+
+.end-note{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.end-note-text{
+    color: black;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-family: 'menu-enchante';
+    font-size: 25px;
+    color: black;
+}
+
+.main-menu-color-enchante{
+    background-color: $menu-background-color-la-note-enchante;
+}
+
+.hr_lne_left .hr_lpdg_right {
+    color: black;
+}
